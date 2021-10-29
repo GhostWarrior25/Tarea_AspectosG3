@@ -56,11 +56,11 @@ private final class CambioColor implements ActionListener{
 				pan.setBackground(Color.GREEN);
 				
 			}
-			if(nombre.equals("Naranja")) {
+			else if(nombre.equals("Naranja")) {
 				pan.setBackground(Color.ORANGE);
 				
 			}
-			if(nombre.equals("Blanco")) {
+			else if(nombre.equals("Blanco")) {
 				pan.setBackground(Color.WHITE);
 				
 			}
